@@ -1,0 +1,37 @@
+.info{
+    background-color: white;
+    margin: auto;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 5em;
+}
+
+.image{
+    margin: auto;
+}
+
+.image img{
+    width: inherit;
+    border-radius: 1em;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: initial;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.stat-info{
+    background-color: black;
+    color: white;
+    width: -moz-available;
+    padding: 1em;
+    border-radius: 1em;
+}
